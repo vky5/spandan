@@ -1,9 +1,9 @@
-
+import EventPage from "./pages/EventPage";
 
 function App() {
   return (
     <>
-      <h1 className="text-red-500">Heellloo</h1>
+      <EventPage />
     </>
   );
 }
