@@ -4,7 +4,7 @@ const filterdata = [
   { name: "Robotics", id: "Robotics" },
   { name: "Coding", id: "Coding" },
 ];
-const Filters = ({ filterEvents }) => {
+const Filter = ({ filterEvents }) => {
   const [active, setActive] = useState("Robotics");
   const clickhandler = (id) => {
     setActive(id);
@@ -31,4 +31,4 @@ const Filters = ({ filterEvents }) => {
   );
 };
 
-export default Filters;
+export default Filter;

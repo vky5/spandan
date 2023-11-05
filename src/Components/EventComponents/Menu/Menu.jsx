@@ -31,16 +31,13 @@ const Menu = () => {
         }`}
       >
         <span className="hover:shadow-[inset_200px_0_0_0_white] hover:text-black transition-shadow ease-in-out text-white md:text-2xl md:font-normal md:leading-none ml-5 p-1 cursor-pointer shadow-[inset_0_0_0_0_white] shadow-white duration-400 hover:shadow-white text-2xl font-semibold ">
-          {/* <Link to={"/"}>HOME</Link> */}
-          HOME
+          <Link to={"/"}>HOME</Link>
         </span>
         <span className="hover:shadow-[inset_200px_0_0_0_white] hover:text-black transition-shadow ease-in-out text-white md:text-2xl md:font-normal leading-none ml-5 p-1 cursor-pointer shadow-[inset_0_0_0_0_white] shadow-white duration-300 hover:shadow-white text-2xl font-semibold ">
-          {/* <Link to={"/Events"}>Events</Link> */}
-          EVENTS
+          <Link to={"/Events"}>EVENTS</Link>
         </span>
         <span className="hover:shadow-[inset_200px_0_0_0_white] hover:text-black transition-shadow ease-in-out text-white md:text-2xl md:font-normal leading-none ml-5 p-1 cursor-pointer shadow-[inset_0_0_0_0_white] shadow-white duration-300 hover:shadow-white text-2xl font-semibold">
-          {/* <Link to={"/AboutUs"}>About US</Link> */}
-          ABOUT US
+          <Link to={"/AboutUs"}>ABOUT US</Link>
         </span>
       </div>
     </div>

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Filters from "../Components/EventComponents/Filter.jsx";
-import ShowCase from "../Components/EventComponents/Showcase.jsx";
 import { Eventdata } from "../data/eventData.js";
 import EventUpper from "../Components/EventComponents/EventUpper.jsx";
 import Navbar from "../Components/EventComponents/Menu/Navbar.jsx";
+import Filter from "../Components/EventComponents/Filter.jsx";
+import Showcase from "../Components/EventComponents/Showcase.jsx";
 
 const EventPage = () => {
   const [events, setEvents] = useState(Eventdata);
@@ -37,9 +37,11 @@ const EventPage = () => {
   return (
     <div className="flex flex-col w-full md:w-full h-fit bg-[#002046] portfolio-content-wrapper ">
       <EventUpper />
-      <Filters filterEvents={(tag) => filterEvents(tag)} />
-      <ShowCase data={events} transition={transition} />
+      <Filter filterEvents={(tag) => filterEvents(tag)} />
+      <Showcase data={events} transition={transition} />
+   
     </div>
+  
   );
 };
 
