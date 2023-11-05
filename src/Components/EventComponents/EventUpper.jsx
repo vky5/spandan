@@ -1,5 +1,5 @@
 import React from "react";
-import Ecllips1 from "../../Images/Ellipse_1.png";
+import Ecllips1 from "../../Images/homeImages/Ellipse_1.png";
 import Ecllips2 from "../../Images/Ellipse_1new.png";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 const EventUpper = () => {
