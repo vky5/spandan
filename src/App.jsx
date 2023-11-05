@@ -1,3 +1,4 @@
+
 import Footer from "./Components/EventComponents/Footer.jsx/Footer";
 import Navbar from "./Components/EventComponents/Menu/Navbar";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
