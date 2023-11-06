@@ -1,4 +1,6 @@
 import dummyimage from "../Images/dummyimage.png";
+
+
 export const FacultyData = [
   {
     id: 1,

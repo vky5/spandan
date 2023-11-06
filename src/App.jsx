@@ -4,6 +4,9 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import EventPage from "./Pages/EventPage";
 import AboutPage from "./Pages/AboutPage";
 import Homepage from "./Pages/HomePage";
+
+
+
 function App() {
   return (
     <BrowserRouter>
