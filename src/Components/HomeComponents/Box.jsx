@@ -11,7 +11,7 @@ function Box({heading, extraHeading, data}) {
   };
   return (
     <>
-      <div style={backgroundStyle} className="h-36 my-5 ml-5 mr-5 flex">
+      <div style={backgroundStyle} className="my-5 ml-5 mr-5 flex">
         <div className="w-1/3">
           <div className=" text-yellow-500 font-bold pt-9 pl-5 text-l">
             {heading}
