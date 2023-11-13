@@ -5,10 +5,7 @@ import { Link } from "react-router-dom";
 import logo from "../../../Images/Spandan_logo.png";
 const Menu = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
-  const menuItemClickHandler = (section) => {
-    setMobileMenu(!mobileMenu);
-    ScrollToSection(section);
-  };
+
   return (
     <div className="flex items-center justify-between w-full bg-transparent md:backdrop-blur-xl">
       <div className="w-12 md:w-24">
@@ -30,13 +27,22 @@ const Menu = () => {
           mobileMenu ? "flex" : "hidden"
         }`}
       >
-        <span className="hover:shadow-[inset_200px_0_0_0_white] hover:text-black transition-shadow ease-in-out text-white md:text-2xl md:font-normal md:leading-none ml-5 p-1 cursor-pointer shadow-[inset_0_0_0_0_white] shadow-white duration-400 hover:shadow-white text-2xl font-semibold ">
+        <span
+          onClick={() => setMobileMenu(!mobileMenu)}
+          className="hover:shadow-[inset_200px_0_0_0_white] hover:text-black transition-shadow ease-in-out text-white md:text-2xl md:font-normal md:leading-none ml-5 p-1 cursor-pointer shadow-[inset_0_0_0_0_white] shadow-white duration-400 hover:shadow-white text-2xl font-semibold "
+        >
           <Link to={"/"}>HOME</Link>
         </span>
-        <span className="hover:shadow-[inset_200px_0_0_0_white] hover:text-black transition-shadow ease-in-out text-white md:text-2xl md:font-normal leading-none ml-5 p-1 cursor-pointer shadow-[inset_0_0_0_0_white] shadow-white duration-300 hover:shadow-white text-2xl font-semibold ">
+        <span
+          onClick={() => setMobileMenu(!mobileMenu)}
+          className="hover:shadow-[inset_200px_0_0_0_white] hover:text-black transition-shadow ease-in-out text-white md:text-2xl md:font-normal leading-none ml-5 p-1 cursor-pointer shadow-[inset_0_0_0_0_white] shadow-white duration-300 hover:shadow-white text-2xl font-semibold "
+        >
           <Link to={"/Events"}>EVENTS</Link>
         </span>
-        <span className="hover:shadow-[inset_200px_0_0_0_white] hover:text-black transition-shadow ease-in-out text-white md:text-2xl md:font-normal leading-none ml-5 p-1 cursor-pointer shadow-[inset_0_0_0_0_white] shadow-white duration-300 hover:shadow-white text-2xl font-semibold">
+        <span
+          onClick={() => setMobileMenu(!mobileMenu)}
+          className="hover:shadow-[inset_200px_0_0_0_white] hover:text-black transition-shadow ease-in-out text-white md:text-2xl md:font-normal leading-none ml-5 p-1 cursor-pointer shadow-[inset_0_0_0_0_white] shadow-white duration-300 hover:shadow-white text-2xl font-semibold"
+        >
           <Link to={"/AboutUs"}>ABOUT US</Link>
         </span>
       </div>
