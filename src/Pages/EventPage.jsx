@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Eventdata } from "../data/eventData.js";
 import EventUpper from "../Components/EventComponents/EventUpper.jsx";
-import Navbar from "../Components/EventComponents/Menu/Navbar.jsx";
 import Filter from "../Components/EventComponents/Filter.jsx";
 import Showcase from "../Components/EventComponents/Showcase.jsx";
 
@@ -39,9 +38,7 @@ const EventPage = () => {
       <EventUpper />
       <Filter filterEvents={(tag) => filterEvents(tag)} />
       <Showcase data={events} transition={transition} />
-   
     </div>
-  
   );
 };
 

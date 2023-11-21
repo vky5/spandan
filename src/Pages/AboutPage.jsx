@@ -3,13 +3,6 @@ import team from "../Images/team.png";
 import { FacultyData } from "../data/facultyData";
 import { HeadData } from "../data/facultyData";
 import { ManagerData } from "../data/facultyData";
-import { ManagementData } from "../data/executiveData";
-import { MarketingData } from "../data/executiveData";
-import { MediaData } from "../data/executiveData";
-import { WebdevData } from "../data/executiveData";
-import { FinanceData } from "../data/executiveData";
-import { HospitalityData } from "../data/executiveData";
-import { VolunterData } from "../data/executiveData";
 const AboutPage = () => {
   return (
     <div className="text-center text-white">
@@ -85,57 +78,6 @@ const AboutPage = () => {
               </div>
             </div>
           ))}
-        </div>
-      </div>
-      <div className="">
-        <h2 className="text-xl text-left mt-5 mb-2 md:text-3xl md:my-10">
-          EXECUTIVES
-        </h2>
-        <div className="grid grid-cols-3 md:grid-cols-4 gap-10">
-          <div className="text-left">
-            <h3 className="py-2 md:text-3xl">Management</h3>
-            {ManagementData.map((items) => (
-              <p className="md:text-xl">{items}</p>
-            ))}
-          </div>
-
-          <div className="text-left">
-            <h3 className="py-2 md:text-3xl">Web Dev</h3>
-            {WebdevData.map((items) => (
-              <p className="md:text-xl">{items}</p>
-            ))}
-          </div>
-          <div className="text-left">
-            <h3 className="py-2 md:text-3xl">Media</h3>
-            {MediaData.map((items) => (
-              <p className="md:text-xl">{items}</p>
-            ))}
-          </div>
-
-          <div className="text-left">
-            <h3 className="py-2 md:text-3xl">Marketing</h3>
-            {MarketingData.map((items) => (
-              <p className="md:text-xl">{items}</p>
-            ))}
-          </div>
-          <div className="text-left">
-            <h3 className="py-2 md:text-3xl">Finance</h3>
-            {FinanceData.map((items) => (
-              <p className="md:text-xl">{items}</p>
-            ))}
-          </div>
-          <div className="text-left">
-            <h3 className="py-2 md:text-3xl">Hospitality</h3>
-            {HospitalityData.map((items) => (
-              <p className="md:text-xl">{items}</p>
-            ))}
-          </div>
-          <div className="text-left">
-            <h3 className="py-2 md:text-3xl">Volunteers</h3>
-            {VolunterData.map((items) => (
-              <p className="md:text-xl">{items}</p>
-            ))}
-          </div>
         </div>
       </div>
     </div>

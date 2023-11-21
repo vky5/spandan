@@ -55,7 +55,7 @@ const data2 = [
 ];
 const Footer = () => {
   return (
-    <div className="px-4 text-white backdrop-opacity-10 backdrop-opacity-1 ">
+    <div className="px-4 text-white backdrop-blur-lg bg-[#002046] ">
       {" "}
       <div className="flex flex-col py-5 border-b-4 md:py-10 md: md:flex-row md:justify-between backdrop-filter backdrop-blur-lg">
         <div className="flex items-center justify-evenly ">

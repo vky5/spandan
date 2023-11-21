@@ -2,12 +2,12 @@ import { CgMenuRight } from "react-icons/cg";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../../Images/Spandan_logo.png";
+import logo from "../../Images/Spandan_logo.png";
 const Menu = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
-    <div className="flex items-center justify-between w-full bg-transparent md:backdrop-blur-xl">
+    <div className="flex items-center justify-between w-full bg-transparent md:backdrop-blur-lg md:pr-5">
       <div className="w-12 md:w-24">
         <img src={logo} alt="logo" />
       </div>

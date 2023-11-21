@@ -3,15 +3,14 @@ import React from "react";
 import bg2 from "../../Images/homeImages/homepage_bg2.png";
 import line from "../../Images/homeImages/line.jpeg";
 
-
-function Box({heading, extraHeading, data}) {
+function Box({ heading, extraHeading, data }) {
   const backgroundStyle = {
     backgroundImage: `url(${bg2})`,
     backgroundSize: "cover",
   };
   return (
     <>
-      <div style={backgroundStyle} className="my-5 ml-5 mr-5 flex">
+      <div style={backgroundStyle} className="my-5 mx-5 flex md:h-36">
         <div className="w-1/3">
           <div className=" text-yellow-500 font-bold pt-9 pl-5 text-l">
             {heading}

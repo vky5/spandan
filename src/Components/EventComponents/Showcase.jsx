@@ -1,17 +1,14 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
-import "aos/dist/aos.css";
+
+import { Link } from "react-router-dom";
 
 const Showcase = ({ data, transition }) => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
-
   return (
-    <div className="flex flex-wrap my-2  md:px-0 justify-between md:justify-[normal] md:ml-[-10px] md:mr-[-10px]  ">
+    <div className="flex flex-wrap my-2 md:mb-10 md:px-0 justify-between md:justify-[normal] md:mx-[-10px]  ">
       {data.map((event) => (
         <div key={event.id}>
-          <div className="w-[145px] md:w-[350px]  mt-4 rounded-2xl bg-[#D9D9D91A]">
+          <div className="w-[145px] md:w-[335px]   mt-4 rounded-3xl bg-[#D9D9D91A]">
             <div className="">
               <img className="w-full" src={event.image} />
             </div>
@@ -22,17 +19,16 @@ const Showcase = ({ data, transition }) => {
               <p className="my-2 font-mono text-base md:text-xl">
                 {event.desc}
               </p>
+
               <div className="flex justify-center">
-                <a
-                  href={event.link}
-                  target="_blank"
-                  className="cursor-pointer px-4 py-1 text-[13px] md:text-xl rounded-full w-fit border-2 border-white md:px-12 md:py-1 mb-2 font-semibold bg-[#D9D9D994]"
+                <Link
+                  to={`/Events/${event.name}`}
+                  className="cursor-pointer px-4 py-1 text-[13px] md:text-xl
+                  rounded-full w-fit border-2 border-white md:px-12 md:py-1 mb-2
+                  font-semibold bg-[#d9d9d994]"
                 >
-                  View RuleBook
-                </a>
-              </div>
-              <div className="flex">
-                <span className="grow"></span>
+                  Details
+                </Link>
               </div>
             </div>
           </div>
