@@ -1,5 +1,4 @@
 import React from "react";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 import Registerpage from "../Components/HomeComponents/Register";
 import Timeline from "../Components/HomeComponents/Timeline";
@@ -14,7 +13,7 @@ function Homepage() {
   return (
     <>
       <Registerpage/>
-      <div className="my-5">
+      <div className="my-4">
         <Timeline/>
       </div>
       <Box heading={dataofHome[0].heading} extraHeading={dataofHome[0].extraHeading} data={dataofHome[0].data}/>

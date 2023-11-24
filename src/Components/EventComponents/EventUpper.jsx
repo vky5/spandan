@@ -27,15 +27,6 @@ const EventUpper = () => {
       </div>
       <div>
         <div>
-          <div className="p-2 mt-32 text-white border-b-2 rounded-full cursor-pointer md:rounded-3xl w-fit">
-            <a
-              href="www.google.com"
-              className="flex items-end text-3xl md:text-4xl"
-            >
-              <BsArrowUpRightCircle className={"text-3xl text-white"} />
-              <span className="ml-1">Register Now !</span>
-            </a>
-          </div>
           <div className="flex justify-end opacity">
             <img src={Ecllips2} className="h-[70px] md:h-64 " />
           </div>
