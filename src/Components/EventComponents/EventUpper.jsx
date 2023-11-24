@@ -5,15 +5,15 @@ import { BsArrowUpRightCircle } from "react-icons/bs";
 const EventUpper = () => {
   return (
     <div className="bg-[#002046] px-0.5">
-      <div className="flex items-end justify-between mt-24">
+      <div className="flex items-end justify-between ">
         <div className="justify-end text-white">
-          <h1 className=" text-2xl md:text-6xl font-medium leading-[9px]  top-[160px]">
+          <h1 className=" text-2xl md:text-6xl font-medium leading-[19px]">
             Explore all your{" "}
             <span className="text-3xl font-semibold text-yellow-500 md:text-7xl">
               SPANDAN{" "}
             </span>
           </h1>
-          <h1 className="text-2xl md:text-6xl font-medium leading-[9px]  top-[230px]  ">
+          <h1 className="text-2xl md:text-6xl font-medium leading-[19px]">
             Event at One place.
           </h1>
         </div>
