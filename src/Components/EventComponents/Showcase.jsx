@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 
 const Showcase = ({ data, transition }) => {
   return (
-    <div className="flex flex-wrap my-2 md:mb-10 md:px-0 justify-between md:justify-[normal] md:mx-[-10px]  ">
+    <div className="flex flex-wrap my-2 md:mb-10 md:px-0 justify-between md:justify-[normal] md:mx-[10px]  ">
       {data.map((event) => (
         <div key={event.id}>
-          <div className="w-[145px] md:w-[335px]   mt-4 rounded-3xl bg-[#D9D9D91A]">
+          <div className="w-[130px] md:w-[335px]   mt-4 rounded-3xl bg-[#D9D9D91A]">
             <div className="">
               <img className="w-full" src={event.image} />
             </div>

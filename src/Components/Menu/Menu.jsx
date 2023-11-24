@@ -7,7 +7,7 @@ const Menu = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
-    <div className="flex items-center justify-between w-full bg-transparent md:backdrop-blur-lg md:pr-5">
+    <div className="flex items-center justify-between w-full bg-transparent  md:pr-5  md:backdrop-filter md:backdrop-blur-3xl md:bg-opacity-10">
       <div className="w-12 md:w-24">
         <img src={logo} alt="logo" />
       </div>

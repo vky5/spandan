@@ -52,9 +52,9 @@ const AboutPage = () => {
         <h2 className="text-xl mt-5 text-left mb-2 md:text-3xl md:my-10">
           HEADS
         </h2>
-        <div className="flex flex-row gap-2 flex-wrap md:grid md:grid-cols-4 md:gap-4">
+        <div className="flex flex-row gap-1 flex-wrap md:grid md:grid-cols-3 md:gap-4">
           {HeadData.map((item) => (
-            <div key={item.id} className="w-[93px] md:w-72 ">
+            <div key={item.id} className="w-[80px] md:w-72 ">
               <img src={item.img} />
               <div className="-mt-12">
                 <p>{item.name}</p>

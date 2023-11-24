@@ -5,7 +5,7 @@ import { BsArrowUpRightCircle } from "react-icons/bs";
 const EventUpper = () => {
   return (
     <div className="bg-[#002046] px-0.5">
-      <div className="flex items-end justify-between mt-36">
+      <div className="flex items-end justify-between mt-24">
         <div className="justify-end text-white">
           <h1 className=" text-2xl md:text-6xl font-medium leading-[9px]  top-[160px]">
             Explore all your{" "}
@@ -27,20 +27,10 @@ const EventUpper = () => {
       </div>
       <div>
         <div>
-          <div className="p-2 mt-32 text-white border-b-2 rounded-full cursor-pointer md:rounded-3xl w-fit">
-            <a
-              href="www.google.com"
-              className="flex items-end text-3xl md:text-4xl"
-            >
-              <BsArrowUpRightCircle className={"text-3xl text-white"} />
-              <span className="ml-1">Register Now !</span>
-            </a>
-          </div>
           <div className="flex justify-end opacity">
-            <img src={Ecllips2} className="h-[70px] md:h-64 " />
+            <img src={Ecllips2} className="h-[70px] md:h-48" />
           </div>
         </div>
-        <div></div>
       </div>
     </div>
   );

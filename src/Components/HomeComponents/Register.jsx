@@ -8,12 +8,10 @@ function Registerpage() {
     backgroundSize: "cover",
   };
 
-
-
   return (
     <>
       <div style={style} className=" flex flex-col items-center justify-center">
-        <div className="text-white lg:text-9xl md:text-8xl sm:text-7xl text-7xl lg:my-3 my-12">
+        <div className="text-white lg:text-9xl md:text-8xl sm:text-7xl text-6xl lg:my-3 my-12">
           SPANDAN
         </div>
         <div className="text-white lg:text-7xl md:text-6xl sm:text-5xl text-4xl justify-center my-8 lg:my-5">

@@ -3,7 +3,7 @@ import EventPage from "./Pages/EventPage";
 import AboutPage from "./Pages/AboutPage";
 import Homepage from "./Pages/HomePage";
 import EventDetail from "./Pages/EventDetail";
-import Footer from "./Components/Footer.jsx/Footer";
+import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Menu/Navbar";
 
 function App() {
