@@ -2,7 +2,7 @@ import React from "react";
 import logoc from "../../Images/homeImages/logoc.png";
 
 function Timeline(){
-    const innerHeight = 200;
+    const innerHeight = 300;
     return(
         <div className=" flex flex-col items-center justify-center">
             <div>
