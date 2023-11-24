@@ -20,12 +20,12 @@ function Registerpage() {
         <div className="text-white lg:text-6xl md:text-5xl sm:text-2xl text-2xl my-5">
           "Feel The Pulse of Innovation"
         </div>
-        <div className="text-white lg:text-4xl md:text-3xl sm:text=2xl text-xl my-5">
+        <div className="text-white lg:text-4xl md:text-3xl sm:text=2xl text-xl my-3">
           <button className=" hover:bg-blue-700 text-yellow-400 font-bold py-2 px-4 rounded-lg backdrop-blur-3xl my-7 lg:my-5">
             REGISTER NOW
           </button>
         </div>
-        <div className="">
+        <div>
           <img src={down} alt="down image logo" />
         </div>
       </div>
