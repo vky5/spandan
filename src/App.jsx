@@ -9,7 +9,7 @@ import Navbar from "./Components/Menu/Navbar";
 function App() {
   return (
     <BrowserRouter>
-      <div className="px-3 py-5 md:px-28 bg-[#002046]">
+      <div className="px-3 py-6 md:px-10 lg:px-20  bg-[#002046]">
         <Navbar />
         <Routes>
           <Route index element={<Homepage />}></Route>

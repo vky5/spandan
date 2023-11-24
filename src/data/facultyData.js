@@ -8,18 +8,6 @@ export const FacultyData = [
     name: "ABC Singh",
     position: "XYZ Position",
   },
-  {
-    id: 2,
-    img: dummyimage,
-    name: "ABC Singh",
-    position: "XYZ Position",
-  },
-  {
-    id: 3,
-    img: dummyimage,
-    name: "ABC Singh",
-    position: "XYZ Position",
-  },
 ];
 
 export const HeadData = [

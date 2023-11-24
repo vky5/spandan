@@ -2,7 +2,7 @@ import { CgMenuRight } from "react-icons/cg";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../Images/Spandan_logo.png";
+import logo from "../../Images/homeImages/logoc.png";
 const Menu = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
 

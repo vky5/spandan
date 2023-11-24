@@ -1,7 +1,9 @@
-import img1 from "../Images/eventImages/img1.jpg";
-import img2 from "../Images/eventImages/img2.png";
-import img3 from "../Images/eventImages/img3.png";
-import img4 from "../Images/eventImages/img4.png";
+import img1 from "../Images/eventImages/LFR.png";
+import img2 from "../Images/eventImages/ROBOSOCCER.png";
+import img3 from "../Images/eventImages/OffRoading.png";
+import img4 from "../Images/eventImages/RoboSumo.png";
+import img5 from "../Images/eventImages/Coding.png";
+import img6 from "../Images/eventImages/BRIDGE.jpg";
 import RuleBook from "../RuleBooks/offroading.pdf";
 
 export const Eventdata = [
@@ -18,6 +20,17 @@ export const Eventdata = [
     collgeEntry: "249/-",
     collgeFirst: "2k",
     collgeSecond: "1k",
+  },
+  {
+    id: "4",
+    name: "Robo Sumo",
+    desc: "Robot Sumo competition",
+    image: img4,
+    tags: ["Robotics"],
+    link: RuleBook,
+    branchEntry: "499/-",
+    branchFirst: "3k",
+    branchSecond: "1.5k",
   },
   {
     id: "2",
@@ -47,23 +60,12 @@ export const Eventdata = [
     collgeFirst: "2k",
     collgeSecond: "1k",
   },
-  {
-    id: "4",
-    name: "Robo Sumo",
-    desc: "Robot Sumo competition",
-    image: img4,
-    tags: ["Robotics"],
-    link: RuleBook,
-    branchEntry: "499/-",
-    branchFirst: "3k",
-    branchSecond: "1.5k",
-  },
 
   {
     id: "5",
     name: "Exhibition",
     desc: "Hackathon",
-    image: img2,
+    image: img5,
     tags: ["Coding"],
     link: RuleBook,
     branchEntry: "99 per Head",
@@ -74,7 +76,7 @@ export const Eventdata = [
     id: "6",
     name: "Bridge It",
     desc: "Bridge It is a robotic game",
-    image: img2,
+    image: img6,
     tags: ["Robotics"],
     link: RuleBook,
     branchEntry: "149/-",

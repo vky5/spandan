@@ -32,16 +32,16 @@ const AboutPage = () => {
         OUR TEAM
       </h2>
       <div className="flex justify-center">
-        <img src={team} className="md:w-96" />
+        <img src={team} className="sm:w-96" />
       </div>
 
-      <div className="flex gap-2 md:justify-evenly">
+      <div className="flex p-12 justify-center">
         {FacultyData.map((item) => (
-          <div key={item.id}>
-            <div className="md:w-72">
-              <img src={item.img} />
+          <div key={item.id} className="">
+            <div className="sm:w-52 md:w-64 lg:w-80">
+              <img src={item.img} className="" />
             </div>
-            <div className="-mt-12">
+            <div className="relative bottom-16">
               <p>{item.name}</p>
               <p>{item.position}</p>
             </div>
@@ -49,30 +49,14 @@ const AboutPage = () => {
         ))}
       </div>
       <div>
-        <h2 className="text-xl mt-5 text-left mb-2 md:text-3xl md:my-10">
+        <h2 className="text-3xl  text-left mb-2 md:text-3xl md:my-10">
           HEADS
         </h2>
-        <div className="flex flex-row gap-1 flex-wrap md:grid md:grid-cols-3 md:gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3  gap-x-5 md:grid lg:grid-cols-4 lg:gap-10 mt-10">
           {HeadData.map((item) => (
-            <div key={item.id} className="w-[80px] md:w-72 ">
+            <div key={item.id} className=" ">
               <img src={item.img} />
-              <div className="-mt-12">
-                <p>{item.name}</p>
-                <p>{item.position}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div>
-        <h2 className="text-xl text-left mt-5 mb-2 md:text-3xl md:my-10">
-          MANAGERS
-        </h2>
-        <div className="flex flex-row gap-2 flex-wrap md:grid md:grid-cols-4 md:gap-4">
-          {ManagerData.map((item) => (
-            <div key={item.id} className="w-[93px] md:w-72">
-              <img src={item.img} />
-              <div className="-mt-12">
+              <div className="relative bottom-16 ">
                 <p>{item.name}</p>
                 <p>{item.position}</p>
               </div>

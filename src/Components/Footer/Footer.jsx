@@ -5,11 +5,6 @@ import { BiLogoFacebook } from "react-icons/bi";
 
 const data1 = [
   {
-    id: 1,
-    name: "Form",
-    link: "WWW.Google.com",
-  },
-  {
     id: 2,
     name: "GBPIET",
     link: "WWW.Google.com",
@@ -24,31 +19,16 @@ const data1 = [
 const data2 = [
   {
     id: 1,
-    name: "About Us",
-    link: "WWW.Google.com",
-  },
-  {
-    id: 2,
     name: "Workshops",
     link: "WWW.Google.com",
   },
   {
-    id: 3,
-    name: "Events",
-    link: "WWW.Google.com",
-  },
-  {
-    id: 4,
+    id: 2,
     name: "FAQ's",
     link: "WWW.Google.com",
   },
   {
-    id: 5,
-    name: "Exhibitions",
-    link: "WWW.Google.com",
-  },
-  {
-    id: 6,
+    id: 3,
     name: "T&C",
     link: "WWW.Google.com",
   },
@@ -57,7 +37,7 @@ const Footer = () => {
   return (
     <div className="px-4 text-white backdrop-blur-lg bg-[#002046] ">
       {" "}
-      <div className="flex flex-col py-5 border-b-4 md:py-10 md: md:flex-row md:justify-between backdrop-filter backdrop-blur-lg">
+      <div className="flex flex-col py-5 border-b-4 md:py-10 md:flex-row md:justify-between backdrop-filter backdrop-blur-lg">
         <div className="flex items-center justify-evenly ">
           {data1.map((item) => (
             <p

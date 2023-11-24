@@ -16,6 +16,7 @@ function Homepage() {
       <div className="my-4">
         <Timeline/>
       </div>
+      
       <Box heading={dataofHome[0].heading} extraHeading={dataofHome[0].extraHeading} data={dataofHome[0].data}/>
       <Box heading={dataofHome[1].heading} extraHeading={dataofHome[1].extraHeading} data={dataofHome[1].data}/>
       <Box heading={dataofHome[2].heading} extraHeading={dataofHome[2].extraHeading} data={dataofHome[2].data}/>
