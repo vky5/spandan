@@ -13,7 +13,7 @@ function MyCarousel(){
           
           <div key={s.id} className="carousel-slide">
 
-            <img src={s.src} alt={s.alt} />
+            <img src={s.src} alt={s.alt} className="object-cover w-full h-full" />
           </div>
         ))
       }
