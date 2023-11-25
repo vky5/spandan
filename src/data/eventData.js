@@ -9,7 +9,7 @@ import BRIDGERULE from "../RuleBooks/BRIDGE.pdf";
 import CodingRULE from "../RuleBooks/Coding.pdf";
 import LFRRULE from "../RuleBooks/LFR.pdf";
 import RobosoccerRULE from "../RuleBooks/Robosoccer.pdf";
-import ROBOSUMORULE from "../RuleBooks/OFFROADING.pdf";
+import ROBOSUMORULE from "../RuleBooks/ROBOSUMO.pdf";
 
 export const Eventdata = [
   {
