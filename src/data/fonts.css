@@ -21,6 +21,12 @@
     font-family: 'michroma';
     src: url('/src/assets/Michroma/Michroma-Regular.ttf');
 }
+
+@font-face {
+    font-family: 'sharetech';
+    src: url('/src/assets/Share_Tech/OFL.txt');
+}
+
 @font-face {
     font-family: 'exo';
     src: url('/src/assets/Exo-VariableFont_wght.ttf');

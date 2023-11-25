@@ -4,6 +4,7 @@ import { FacultyData } from "../data/facultyData";
 import { HeadData } from "../data/facultyData";
 import { ManagerData } from "../data/facultyData";
 import '../data/fonts.css'
+
 const AboutPage = () => {
   return (
     <div className="text-center text-white">
@@ -62,7 +63,7 @@ const AboutPage = () => {
         </div>
       </div>
       <div>
-        <h2 className="text-3xl  text-left mb-2 md:text-3xl md:my-10">
+        <h2 className="text-3xl  text-left mb-2 md:text-3xl md:my-10" style={{fontFamily: 'Syne'}}>
           TEAM HEADS
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3  gap-x-5 md:grid lg:grid-cols-4 lg:gap-10 mt-10">
