@@ -23,7 +23,7 @@ const Menu = () => {
       </div>
 
       <div
-        className={`fixed w-full h-full top-0 left-0 z-[9] bg-black  flex-col justify-center items-center gap-[35px] md:flex md:flex-row md:relative md:w-auto md:h-auto md:gap-[unset] md:bg-transparent ${
+        className={`fixed w-full h-full top-0 left-0 z-[9] bg-[#002046]  flex-col justify-center items-center gap-[35px] md:flex md:flex-row md:relative md:w-auto md:h-auto md:gap-[unset] md:bg-transparent ${
           mobileMenu ? "flex" : "hidden"
         }`}
       >

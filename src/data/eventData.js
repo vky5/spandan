@@ -4,7 +4,12 @@ import img3 from "../Images/eventImages/OffRoading.png";
 import img4 from "../Images/eventImages/RoboSumo.png";
 import img5 from "../Images/eventImages/Coding.png";
 import img6 from "../Images/eventImages/BRIDGE.jpg";
-import RuleBook from "../RuleBooks/offroading.pdf";
+import OFFROADINGRULE from "../RuleBooks/OFFROADING.pdf";
+import BRIDGERULE from "../RuleBooks/BRIDGE.pdf";
+import CodingRULE from "../RuleBooks/Coding.pdf";
+import LFRRULE from "../RuleBooks/LFR.pdf";
+import RobosoccerRULE from "../RuleBooks/Robosoccer.pdf";
+import ROBOSUMORULE from "../RuleBooks/OFFROADING.pdf";
 
 export const Eventdata = [
   {
@@ -13,64 +18,65 @@ export const Eventdata = [
     desc: "Line following robot competition",
     image: img1,
     tags: ["Robotics"],
-    link: RuleBook,
+    link: LFRRULE,
     branchEntry: "249/-",
     branchFirst: "2k",
     branchSecond: "1k",
-    collgeEntry: "249/-",
-    collgeFirst: "2k",
-    collgeSecond: "1k",
+    CordinateName: "ABC",
+    CordinateNumber: "131464",
   },
   {
-    id: "4",
+    id: "2",
     name: "Robo Sumo",
     desc: "Robot Sumo competition",
     image: img4,
     tags: ["Robotics"],
-    link: RuleBook,
+    link: ROBOSUMORULE,
     branchEntry: "499/-",
     branchFirst: "3k",
     branchSecond: "1.5k",
+    CordinateName: "ABC",
+    CordinateNumber: "131464",
   },
   {
-    id: "2",
+    id: "3",
     name: "Robo Soccer",
     desc: "A Soccer competition between robots",
     image: img2,
     tags: ["Robotics"],
-    link: RuleBook,
+    link: RobosoccerRULE,
     branchEntry: "499/-",
     branchFirst: "4k",
     branchSecond: "2k",
-    collgeEntry: "249/-",
-    collgeFirst: "2k",
-    collgeSecond: "1k",
+    CordinateName: "ABC",
+    CordinateNumber: "131464",
   },
   {
-    id: "3",
+    id: "4",
     name: "Off Roading",
     desc: "Off Roading competition is going to happen",
     image: img3,
     tags: ["Robotics"],
-    link: RuleBook,
+    link: OFFROADINGRULE,
     branchEntry: "499/-",
     branchFirst: "3k",
     branchSecond: "1.5k",
-    collgeEntry: "249/-",
-    collgeFirst: "2k",
-    collgeSecond: "1k",
+    CordinateName: "ABC",
+    CordinateNumber: "131464",
   },
 
   {
     id: "5",
-    name: "Exhibition",
+    name: "Coding Competition",
     desc: "Hackathon",
     image: img5,
     tags: ["Coding"],
-    link: RuleBook,
+    link: CodingRULE,
     branchEntry: "99 per Head",
     branchFirst: "3k",
     branchSecond: "1.5k",
+    CordinateName: "ABC",
+    CordinateNumber: "131464",
   },
   {
     id: "6",
@@ -78,9 +84,11 @@ export const Eventdata = [
     desc: "Bridge It is a robotic game",
     image: img6,
     tags: ["Robotics"],
-    link: RuleBook,
+    link: BRIDGERULE,
     branchEntry: "149/-",
     branchFirst: "1k",
     branchSecond: "500/-",
+    CordinateName: "ABC",
+    CordinateNumber: "131464",
   },
 ];
