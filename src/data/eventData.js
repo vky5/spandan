@@ -7,9 +7,9 @@ import img6 from "../Images/eventImages/BRIDGE.jpg";
 import offroading from "../RuleBooks/offroading.pdf";
 import bridge from "../RuleBooks/bridge.pdf";
 import CodingRULE from "../RuleBooks/Coding.pdf";
-import LFRRULE from "../RuleBooks/LFR.pdf";
+import lfr from "../RuleBooks/lfr.pdf";
 import RobosoccerRULE from "../RuleBooks/Robosoccer.pdf";
-import ROBOSUMORULE from "../RuleBooks/ROBOSUMO.pdf";
+import robosumo from "../RuleBooks/robosumo.pdf";
 
 export const Eventdata = [
   {
@@ -18,7 +18,7 @@ export const Eventdata = [
     desc: "Line following robot competition",
     image: img1,
     tags: ["Robotics"],
-    link: LFRRULE,
+    link: lfr,
     branchEntry: "249/-",
     branchFirst: "2k",
     branchSecond: "1k",
@@ -31,7 +31,7 @@ export const Eventdata = [
     desc: "Robot Sumo competition",
     image: img4,
     tags: ["Robotics"],
-    link: ROBOSUMORULE,
+    link: robosumo,
     branchEntry: "499/-",
     branchFirst: "3k",
     branchSecond: "1.5k",
