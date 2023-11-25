@@ -3,6 +3,7 @@ import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../Images/homeImages/logoc.png";
+import '../../data/fonts.css'
 const Menu = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
 
@@ -31,19 +32,19 @@ const Menu = () => {
           onClick={() => setMobileMenu(!mobileMenu)}
           className="hover:shadow-[inset_200px_0_0_0_white] hover:text-black transition-shadow ease-in-out text-white md:text-2xl md:font-normal md:leading-none ml-5 p-1 cursor-pointer shadow-[inset_0_0_0_0_white] shadow-white duration-400 hover:shadow-white text-2xl font-semibold "
         >
-          <Link to={"/"}>HOME</Link>
+          <Link to={"/"} style={{fontFamily: 'exo'}}>HOME</Link>
         </span>
         <span
           onClick={() => setMobileMenu(!mobileMenu)}
           className="hover:shadow-[inset_200px_0_0_0_white] hover:text-black transition-shadow ease-in-out text-white md:text-2xl md:font-normal leading-none ml-5 p-1 cursor-pointer shadow-[inset_0_0_0_0_white] shadow-white duration-300 hover:shadow-white text-2xl font-semibold "
         >
-          <Link to={"/Events"}>EVENTS</Link>
+          <Link to={"/Events"} style={{fontFamily: 'exo'}}>EVENTS</Link>
         </span>
         <span
           onClick={() => setMobileMenu(!mobileMenu)}
           className="hover:shadow-[inset_200px_0_0_0_white] hover:text-black transition-shadow ease-in-out text-white md:text-2xl md:font-normal leading-none ml-5 p-1 cursor-pointer shadow-[inset_0_0_0_0_white] shadow-white duration-300 hover:shadow-white text-2xl font-semibold"
         >
-          <Link to={"/AboutUs"}>ABOUT US</Link>
+          <Link to={"/AboutUs"} style={{fontFamily: 'exo'}}>ABOUT US</Link>
         </span>
       </div>
     </div>

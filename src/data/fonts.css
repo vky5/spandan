@@ -13,11 +13,15 @@
 }
 
 @font-face {
-    font-family: nasa;
+    font-family: 'nasa';
     src: url('/src/assets/NASALIZA.TTF');
 }
 
 @font-face {
     font-family: 'michroma';
     src: url('/src/assets/Michroma/Michroma-Regular.ttf');
+}
+@font-face {
+    font-family: 'exo';
+    src: url('/src/assets/Exo-VariableFont_wght.ttf');
 }
