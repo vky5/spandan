@@ -4,8 +4,8 @@ import img3 from "../Images/eventImages/OffRoading.png";
 import img4 from "../Images/eventImages/RoboSumo.png";
 import img5 from "../Images/eventImages/Coding.png";
 import img6 from "../Images/eventImages/BRIDGE.jpg";
-import OFFROADINGRULE from "../RuleBooks/OFFROADING.pdf";
-import BRIDGERULE from "../RuleBooks/BRIDGE.pdf";
+import offroading from "../RuleBooks/offroading.pdf";
+import bridge from "../RuleBooks/bridge.pdf";
 import CodingRULE from "../RuleBooks/Coding.pdf";
 import LFRRULE from "../RuleBooks/LFR.pdf";
 import RobosoccerRULE from "../RuleBooks/Robosoccer.pdf";
@@ -57,7 +57,7 @@ export const Eventdata = [
     desc: "Off Roading competition is going to happen",
     image: img3,
     tags: ["Robotics"],
-    link: OFFROADINGRULE,
+    link: offroading,
     branchEntry: "499/-",
     branchFirst: "3k",
     branchSecond: "1.5k",
@@ -84,7 +84,7 @@ export const Eventdata = [
     desc: "Bridge It is a robotic game",
     image: img6,
     tags: ["Robotics"],
-    link: BRIDGERULE,
+    link: bridge,
     branchEntry: "149/-",
     branchFirst: "1k",
     branchSecond: "500/-",
