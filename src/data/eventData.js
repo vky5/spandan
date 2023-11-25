@@ -4,12 +4,12 @@ import img3 from "../Images/eventImages/OffRoading.png";
 import img4 from "../Images/eventImages/RoboSumo.png";
 import img5 from "../Images/eventImages/Coding.png";
 import img6 from "../Images/eventImages/BRIDGE.jpg";
-import offroading from "../RuleBooks/offroading.pdf";
-import bridge from "../RuleBooks/bridge.pdf";
-import CodingRULE from "../RuleBooks/Coding.pdf";
-import lfr from "../RuleBooks/lfr.pdf";
-import RobosoccerRULE from "../RuleBooks/Robosoccer.pdf";
-import robosumo from "../RuleBooks/robosumo.pdf";
+import offroading from "../ruleBooks/offroadingRule.pdf";
+import bridge from "../ruleBooks/bridgeRule.pdf";
+import coding from "../ruleBooks/codingRule.pdf";
+import lfr from "../ruleBooks/lfrRule.pdf";
+import robosoccer from "../ruleBooks/robosoccerRule.pdf";
+import robosumo from "../ruleBooks/robosumoRule.pdf";
 
 export const Eventdata = [
   {
@@ -44,7 +44,7 @@ export const Eventdata = [
     desc: "A Soccer competition between robots",
     image: img2,
     tags: ["Robotics"],
-    link: RobosoccerRULE,
+    link: robosoccer,
     branchEntry: "499/-",
     branchFirst: "4k",
     branchSecond: "2k",
@@ -71,7 +71,7 @@ export const Eventdata = [
     desc: "Hackathon",
     image: img5,
     tags: ["Coding"],
-    link: CodingRULE,
+    link: coding,
     branchEntry: "99 per Head",
     branchFirst: "3k",
     branchSecond: "1.5k",

@@ -16,10 +16,10 @@ const EventDetail = () => {
   }, []);
 
   return (
-    <div className=" text-white h-fit">
+    <div className="text-white h-fit">
       <div className="w-full h-[275px]">
         <img
-          className="rounded-3xl object-cover w-full h-full "
+          className="object-cover w-full h-full rounded-3xl "
           alt="event image"
           src={eventDetail.image}
         />
@@ -42,6 +42,15 @@ const EventDetail = () => {
             <p className="text-xl">2nd Winning : Rs. </p>
             <p>{eventDetail.branchSecond}</p>
           </div>
+        </div>
+        <div>
+          <a
+            href={eventDetail.link}
+            download={eventDetail.name}
+            target="_blank"
+          >
+            RuleBook
+          </a>
         </div>
       </div>
     </div>
