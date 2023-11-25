@@ -52,7 +52,7 @@ const Footer = () => {
           ))}
         </div>
         <div className="flex justify-around mt-5">
-          <ul className="flex flex-wrap items-center justify-evenly text-[12px] w-48 md:w-96 md:text-2xl">
+          <ul className="flex flex-wrap items-center justify-evenly text-[12px] w-48 md:w-96 md:text-2xl" style={{fontFamily :"spacemono"}}>
             {data2.map((item) => (
               <li key={item.id} className="px-2">
                 <a href={item.link} target="_blank">
@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="py-6">
-        <p className="md:text-xl">Connect With Us On:</p>
+        <p className="md:text-xl" style={{fontFamily :"spacemono"}}>Connect With Us On:</p>
         <div className="flex">
           <div>
             <a href="https://www.youtube.com">
@@ -81,15 +81,15 @@ const Footer = () => {
               <BiLogoInstagram className="text-white md:text-2xl" />
             </a>
           </div>
-          {/* <div>
+          <div>
             <a href="https://www.youtube.com/">
               <BiLogoYoutube className="text-white md:text-2xl" />
             </a>
-          </div> */}
+          </div>
         </div>
       </div>
       <div className="pb-5">
-        <p className="text-[12px] md:text-xl">
+        <p className="text-[12px] md:text-xl" style={{fontFamily :"syne"}}>
           @Spandan 2k23.All Right Reserved
         </p>
       </div>

@@ -7,13 +7,13 @@ const EventUpper = () => {
     <div className="bg-[#002046] px-0.5">
       <div className="flex items-end justify-between ">
         <div className="justify-end text-white">
-          <h1 className=" text-2xl md:text-6xl font-medium leading-[19px]">
+          <h1 className=" text-2xl md:text-6xl font-medium leading-[19px]" style={{fontFamily :"Syne"}}>
             Explore all your{" "}
-            <span className="text-3xl font-semibold text-yellow-500 md:text-7xl">
+            <span className="text-3xl font-semibold text-yellow-500 md:text-7xl" style={{fontFamily :"Syne"}}>
               SPANDAN{" "}
             </span>
           </h1>
-          <h1 className="text-2xl md:text-6xl font-medium leading-[19px]">
+          <h1 className="text-2xl md:text-6xl font-medium leading-[19px]" style={{fontFamily :"Syne"}}>
             Event at One place.
           </h1>
         </div>

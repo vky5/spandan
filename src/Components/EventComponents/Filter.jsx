@@ -14,7 +14,7 @@ const Filter = ({ filterEvents }) => {
   };
 
   return (
-    <ul className="flex items-center mx-4 list-none border-b-2 md:mx-0 justify-evenly filter-menu-items md:justify-evenly">
+    <ul className="flex items-center mx-4 list-none border-b-2 md:mx-0 justify-evenly filter-menu-items md:justify-evenly" style={{fontFamily :"Syne"}}>
       {filterdata.map((item) => {
         const activeClass = " border-b-4 text-white";
         return (
