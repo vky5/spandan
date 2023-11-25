@@ -13,10 +13,10 @@ const EventDetail = () => {
 
       setEventDetail(filteredEvent[0]);
     };
-  }, []);
-
+  }, [eventDetail]);
+  console.log(eventDetail);
   return (
-    <div className="text-white h-fit">
+   eventDetail && ( <div className="text-white h-fit">
       <div className="w-full h-[275px]">
         <img
           className="object-cover w-full h-full rounded-3xl "
@@ -53,7 +53,7 @@ const EventDetail = () => {
           </a>
         </div>
       </div>
-    </div>
+    </div>)
   );
 };
 
