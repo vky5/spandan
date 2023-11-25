@@ -1,18 +1,18 @@
 import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
-import { BiLogoInstagram, BiLogoLinkedin } from "react-icons/bi";
+import { BiLogoInstagram, BiLogoLinkedin, BiLogoYoutube } from "react-icons/bi";
 import { BiLogoFacebook } from "react-icons/bi";
 
 const data1 = [
   {
     id: 2,
     name: "GBPIET",
-    link: "WWW.Google.com",
+    link: "https://gbpec.ac.in/",
   },
   {
     id: 3,
     name: "SAC",
-    link: "WWW.Google.com",
+    link: "https://gbpec.ac.in/student-life/student-activity-cell/",
   },
 ];
 
@@ -67,25 +67,30 @@ const Footer = () => {
         <p className="md:text-xl">Connect With Us On:</p>
         <div className="flex">
           <div>
-            <a href="www.linkdin.com">
-              <BiLogoLinkedin className="text-white md:text-2xl" />
+            <a href="https://www.youtube.com">
+              <BiLogoYoutube className="text-white md:text-2xl" />
             </a>
           </div>
           <div className="">
-            <a href="www.linkdin.com">
+            <a href="https://www.facebook.com">
               <BiLogoFacebook className="text-white md:text-2xl" />
             </a>
           </div>
           <div className="">
-            <a href="www.linkdin.com">
+            <a href="https://www.instagram.com">
               <BiLogoInstagram className="text-white md:text-2xl" />
             </a>
           </div>
+          {/* <div>
+            <a href="https://www.youtube.com/">
+              <BiLogoYoutube className="text-white md:text-2xl" />
+            </a>
+          </div> */}
         </div>
       </div>
       <div className="pb-5">
         <p className="text-[12px] md:text-xl">
-          @Spandhan 2k23.All Right Reserved
+          @Spandan 2k23.All Right Reserved
         </p>
       </div>
     </div>
