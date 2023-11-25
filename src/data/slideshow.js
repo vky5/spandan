@@ -1,7 +1,7 @@
 const imgSlide = [
     {
       id: 1,
-      src: '/src/Images/homeImages/carousel/1.jpg',
+      src: '../..//Images/homeImages/carousel/1.jpg',
       alt: "Image 1",
       caption: "Image 1 Description",
     },
