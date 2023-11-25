@@ -8,7 +8,7 @@ const EventDetail = () => {
   const eventDetail = data.state.events;
 
   return (
-    <div className="text-white h-fit">
+    <div className="text-white h-fit bg-[#D9D9D91A] px-3 py-3">
       <div className="w-full h-[275px]">
         <img
           className="object-cover w-full h-full rounded-3xl "
@@ -17,7 +17,19 @@ const EventDetail = () => {
         />
       </div>
       <div className="mt-54">
-        <h1 className="text-4xl font-medium ">{eventDetail.name}</h1>
+        <div className="flex mt-5">
+          <h1 className="text-2xl font-medium w-2/3">{eventDetail.name}</h1>
+          <span className="px-2 py-1 h-fit  border border-black bg-[#d9d9d994]">
+            <a
+              href={eventDetail.link}
+              download={eventDetail.name}
+              target="_blank"
+            >
+              RuleBook
+            </a>
+          </span>
+        </div>
+
         <p className="text-xl font-light ">{eventDetail.desc}</p>
         <h2 className="text-3xl font-medium text-center">Entry and Prize</h2>
         <p className="text-center">InterBranch</p>
@@ -34,15 +46,6 @@ const EventDetail = () => {
             <p className="text-xl">2nd Winning : Rs. </p>
             <p>{eventDetail.branchSecond}</p>
           </div>
-        </div>
-        <div>
-          <a
-            href={eventDetail.link}
-            download={eventDetail.name}
-            target="_blank"
-          >
-            RuleBook
-          </a>
         </div>
       </div>
     </div>
