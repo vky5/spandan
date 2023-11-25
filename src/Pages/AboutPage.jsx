@@ -27,7 +27,7 @@ const AboutPage = () => {
          marking your calendars for an experience that promises to redefine boundaries and leave an indelible mark on your technological journey.
         </p>
       </div>
-      <h2 className="mt-10 text-xl font-semibold md:mt-20 md:text-6xl">
+      <h2 className="mt-10 text-xl font-semibold md:mt-20 md:text-6xl"  style={{fontFamily: 'Syne'}}>
         OUR TEAM
       </h2>
       <div className="flex justify-center">
