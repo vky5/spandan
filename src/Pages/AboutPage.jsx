@@ -42,21 +42,21 @@ const AboutPage = () => {
               <img src={item.img} className="" />
             </div>
             <div className="relative bottom-16">
-              <p>{item.name}</p>
-              <p>{item.position}</p>
+              <p style={{fontFamily: 'Syne'}}>{item.name}</p>
+              <p style={{fontFamily: 'Syne'}}>{item.position}</p>
             </div>
           </div>
         ))}
       </div>
       <div>
-        <h2 className="text-3xl  text-left mb-2 md:text-3xl md:my-10">HEADS</h2>
+        <h2 className="text-3xl  text-left mb-2 md:text-3xl md:my-10" style={{fontFamily: 'Syne'}}>HEADS</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3  gap-x-5 md:grid lg:grid-cols-4 lg:gap-10 mt-10">
           {HeadData.map((item) => (
             <div key={item.id} className=" ">
               <img src={item.img} />
               <div className="relative bottom-10 sm:bottom-16 text-xs sm:text-lg lg:text-xl ">
-                <p>{item.name}</p>
-                <p>{item.position}</p>
+                <p style={{fontFamily: 'Syne'}}>{item.name}</p>
+                <p style={{fontFamily: 'Syne'}}>{item.position}</p>
               </div>
             </div>
           ))}
@@ -71,8 +71,8 @@ const AboutPage = () => {
             <div key={item.id} className=" ">
               <img src={item.img} />
               <div className="relative sm:bottom-16 bottom-10 text-xs sm:text-lg lg:text-xl ">
-                <p>{item.name}</p>
-                <p>{item.position}</p>
+                <p style={{fontFamily: 'Syne'}}>{item.name}</p>
+                <p style={{fontFamily: 'Syne'}}>{item.position}</p>
               </div>
             </div>
           ))}
