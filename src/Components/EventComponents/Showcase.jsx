@@ -21,34 +21,33 @@ const Showcase = ({ data, transition }) => {
             />
           </div>
           <div className="flex flex-col px-4 py-1 text-white text-start ">
-            <h2 className="py-1 font-base text-xl md:text-4xl font-semibold font-['inknut_Antiqua']" style={{fontFamily:"Syne"}}>
+            <h2
+              className="py-1 font-base text-xl md:text-4xl font-semibold font-['inknut_Antiqua']"
+              style={{ fontFamily: "Syne" }}
+            >
               {events.name}
             </h2>
             {/* <p className="my-2 font-mono text-base md:text-xl">{events.desc}</p> */}
             <div className="grow-[10]"></div>
-            <div className="flex justify-evenly sm:flex-col xl:flex-row">
-              <div className="flex justify-center">
+            <div className="flex py-2 justify-evenly">
+              <div className="relative flex items-center justify-center px-2 py-0 overflow-hidden text-xl font-normal leading-none bg-white rounded-md cursor-pointer h-11 w-max text-slate-700  before:absolute before:left-0 before:w-full before:h-full before:bg-yellow-400 before:z-[0] before:translate-x-[-100%] hover:before:translate-x-[0] before:transition-all before:duration-300">
                 <button
                   onClick={() =>
                     navigate(`/Events/${events.id}`, {
                       state: { events: events },
                     })
                   }
-                  className="cursor-pointer px-4 py-1 text-[13px] md:text-xl
-                  rounded-full w-fit border-2 border-white md:px-12 md:py-1 mb-2
-                  font-semibold bg-[#d9d9d994]"
-                  style={{fontFamily :"spacemono"}}
+                  className="relative z-[1] transition-all duration-500"
+                  style={{ fontFamily: "spacemono" }}
                 >
                   Details
                 </button>
               </div>
-              <div className="flex justify-center">
+              <div className="relative flex items-center justify-center px-2 py-0 overflow-hidden text-xl font-normal leading-none bg-white rounded-md cursor-pointer h-11 w-max text-slate-700  before:absolute before:left-0 before:w-full before:h-full before:bg-yellow-400 before:z-[0] before:translate-x-[-100%] hover:before:translate-x-[0] before:transition-all before:duration-300">
                 <Link
                   to={`/Events/${events.id}`}
-                  className="cursor-pointer px-4 py-1 text-[13px] md:text-xl
-                  rounded-full w-fit border-2 border-white md:px-12 md:py-1 mb-2
-                  font-semibold bg-[#d9d9d994]"
-                  style={{fontFamily :"spacemono"}}
+                  className="relative z-[1] transition-all duration-500 "
+                  style={{ fontFamily: "spacemono" }}
                 >
                   Register
                 </Link>
