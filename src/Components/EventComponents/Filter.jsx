@@ -3,6 +3,8 @@ import React, { useState } from "react";
 const filterdata = [
   { name: "Robotics", id: "Robotics" },
   { name: "Coding", id: "Coding" },
+  { name: "Gaming", id: "Gaming" },
+  { name: "Others", id: "Others" },
 ];
 const Filter = ({ filterEvents }) => {
   const [active, setActive] = useState("Robotics");
@@ -17,7 +19,7 @@ const Filter = ({ filterEvents }) => {
         const activeClass = " border-b-4 text-white";
         return (
           <li
-            className={`py-2 text-2xl md:text-4xl text-white md:font-normal md:leading-7 font-normal leading-5 cursor-pointer ${
+            className={`py-2 text-md md:text-4xl text-white md:font-normal md:leading-7 font-normal leading-5 cursor-pointer ${
               active === item.id ? activeClass : ""
             }`}
             key={item.id}

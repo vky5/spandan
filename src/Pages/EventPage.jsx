@@ -5,24 +5,23 @@ import Filter from "../Components/EventComponents/Filter.jsx";
 import Showcase from "../Components/EventComponents/Showcase.jsx";
 
 const EventPage = () => {
-  const [events, setEvents] = useState(Eventdata);
+  const [events, setEvents] = useState( Eventdata );
   const [transition, setTransition] = useState(false);
 
   useEffect(() => {
-    return () => {
+    setTimeout(() => {
       const filteredEvents = Eventdata.filter((f) =>
         f.tags.includes("Robotics")
       );
 
       setEvents(filteredEvents);
-    };
+    }, 1000);
   }, []);
 
   const filterEvents = (tag) => {
     setTimeout(() => {
       if (tag != "Robotics") {
         const filteredEvents = Eventdata.filter((f) => f.tags.includes(tag));
-
         setEvents(filteredEvents);
       } else {
         const filteredEvents = Eventdata.filter((f) =>
