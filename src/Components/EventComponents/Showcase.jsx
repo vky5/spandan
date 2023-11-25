@@ -27,7 +27,7 @@ const Showcase = ({ data, transition }) => {
             <div className="flex justify-evenly sm:flex-col xl:flex-row">
               <div className="flex justify-center">
                 <Link
-                  to={`/Events/${event.name}`}
+                  to={`/Events/${event.id}`}
                   className="cursor-pointer px-4 py-1 text-[13px] md:text-xl
                   rounded-full w-fit border-2 border-white md:px-12 md:py-1 mb-2
                   font-semibold bg-[#d9d9d994]"
@@ -37,7 +37,7 @@ const Showcase = ({ data, transition }) => {
               </div>
               <div className="flex justify-center">
                 <Link
-                  to={`/Events/${event.name}`}
+                  to={`/Events/${event.id}`}
                   className="cursor-pointer px-4 py-1 text-[13px] md:text-xl
                   rounded-full w-fit border-2 border-white md:px-12 md:py-1 mb-2
                   font-semibold bg-[#d9d9d994]"
