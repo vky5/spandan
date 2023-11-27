@@ -34,12 +34,12 @@ const data2 = [
   },
 ];
 const Footer = () => {
-   const backgroundStyle = {
-     backgroundImage: `url(${bg2})`,
-     backgroundSize: "cover",
-   };
+  const backgroundStyle = {
+    backgroundImage: `url(${bg2})`,
+    backgroundSize: "cover",
+  };
   return (
-    <div className="px-4 text-white bg-white rounded-3xl bg-opacity-20 backdrop-blur-lg drop-shadow-sm ">
+    <div className="px-4 mt-10 text-white bg-white rounded-3xl bg-opacity-20 backdrop-blur-lg drop-shadow-sm">
       {" "}
       <div className="flex flex-col py-5 border-b-4 md:py-10 md:flex-row md:justify-between">
         <div className="flex items-center justify-evenly ">
