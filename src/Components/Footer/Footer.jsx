@@ -39,9 +39,9 @@ const Footer = () => {
      backgroundSize: "cover",
    };
   return (
-    <div className="px-4 text-white backdrop-blur-lg ">
+    <div className="px-4 text-white bg-white rounded-3xl bg-opacity-20 backdrop-blur-lg drop-shadow-sm ">
       {" "}
-      <div className="flex flex-col py-5 border-b-4 md:py-10 md:flex-row md:justify-between backdrop-filter backdrop-blur-lg">
+      <div className="flex flex-col py-5 border-b-4 md:py-10 md:flex-row md:justify-between">
         <div className="flex items-center justify-evenly ">
           {data1.map((item) => (
             <p
@@ -56,7 +56,10 @@ const Footer = () => {
           ))}
         </div>
         <div className="flex justify-around mt-5">
-          <ul className="flex flex-wrap items-center justify-evenly text-[12px] w-48 md:w-96 md:text-2xl" style={{fontFamily :"sharetech"}}>
+          <ul
+            className="flex flex-wrap items-center justify-evenly text-[12px] w-48 md:w-96 md:text-2xl"
+            style={{ fontFamily: "sharetech" }}
+          >
             {data2.map((item) => (
               <li key={item.id} className="px-2">
                 <a href={item.link} target="_blank">
@@ -68,7 +71,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="py-6">
-        <p className="md:text-xl" style={{fontFamily :"sharetech"}}>Connect With Us On:</p>
+        <p className="md:text-xl" style={{ fontFamily: "sharetech" }}>
+          Connect With Us On:
+        </p>
         <div className="flex">
           <div>
             <a href="https://www.linkdin.com">
@@ -93,7 +98,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="pb-5">
-        <p className="text-[12px] md:text-xl" style={{fontFamily :"sharetech"}}>
+        <p
+          className="text-[12px] md:text-xl"
+          style={{ fontFamily: "sharetech" }}
+        >
           @Spandan 2k23.All Right Reserved
         </p>
       </div>
