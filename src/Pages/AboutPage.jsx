@@ -71,8 +71,8 @@ const AboutPage = () => {
               />
             </div>
             <div className="relative text-xs font-medium bottom-12 sm:bottom-16 sm:text-lg lg:text-xl">
-              <p>{item.name}</p>
-              <p>{item.position}</p>
+              <p style={{ fontFamily: "Syne" }}>{item.name}</p>
+              <p style={{ fontFamily: "Syne" }}>{item.position}</p>
             </div>
           </div>
         ))}
@@ -90,8 +90,8 @@ const AboutPage = () => {
               />
               <div className="flex justify-center">
                 <div className="relative text-xs font-medium bg-white rounded bottom-10 sm:bottom-16 sm:text-lg lg:text-xl bg-opacity-20 backdrop-blur-lg drop-shadow-lg w-fit">
-                  <p>{item.name}</p>
-                  <p>{item.position}</p>
+                  <p style={{ fontFamily: "Syne" }}>{item.name}</p>
+                  <p style={{ fontFamily: "Syne" }}>{item.position}</p>
                 </div>
               </div>
             </div>
@@ -114,8 +114,8 @@ const AboutPage = () => {
               />
               <div className="flex justify-center">
                 <div className="relative px-2 text-xs font-medium bg-white rounded sm:bottom-16 bottom-10 sm:text-lg lg:text-xl bg-opacity-20 backdrop-blur-lg drop-shadow-lg w-fit">
-                  <p>{item.name}</p>
-                  <p>{item.position}</p>
+                  <p style={{ fontFamily: "Syne" }}>{item.name}</p>
+                  <p style={{ fontFamily: "Syne" }}>{item.position}</p>
                 </div>
               </div>
             </div>
