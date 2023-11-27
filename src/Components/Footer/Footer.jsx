@@ -2,7 +2,7 @@ import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
 import { BiLogoInstagram, BiLogoLinkedin, BiLogoYoutube } from "react-icons/bi";
 import { BiLogoFacebook } from "react-icons/bi";
-
+import bg2 from "../../Images/homeImages/homepage_bg2.png";
 const data1 = [
   {
     id: 2,
@@ -34,8 +34,12 @@ const data2 = [
   },
 ];
 const Footer = () => {
+   const backgroundStyle = {
+     backgroundImage: `url(${bg2})`,
+     backgroundSize: "cover",
+   };
   return (
-    <div className="px-4 text-white backdrop-blur-lg bg-[#002046] ">
+    <div className="px-4 text-white backdrop-blur-lg ">
       {" "}
       <div className="flex flex-col py-5 border-b-4 md:py-10 md:flex-row md:justify-between backdrop-filter backdrop-blur-lg">
         <div className="flex items-center justify-evenly ">
