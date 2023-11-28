@@ -1,4 +1,5 @@
-import directorgbppiet from "../Images/directorgbpiet.jpg";
+import directorgbppiet from "pritidimri.jpg";
+import directorgbpiet from "../Images/directorgbpiet.jpg";
 import dummyimage from "../Images/dummyimage.png";
 import amansir from "../Images/headImages/amansir.jpg";
 import arvindsir from "../Images/headImages/arvindsir.jpg";
