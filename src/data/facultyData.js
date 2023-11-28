@@ -1,3 +1,4 @@
+import dummyimage from "../Images/directorgbpiet.jpg";
 import dummyimage from "../Images/dummyimage.png";
 import amansir from "../Images/headImages/amansir.jpg";
 import arvindsir from "../Images/headImages/arvindsir.jpg";
@@ -8,6 +9,14 @@ import yashsir from "../Images/headImages/yashsir.jpg";
 import chandrasir from "../Images/headImages/chandra.jpg";
 import saif from "../Images/headImages/saif.jpg";
 import sameer from "../Images/headImages/sameer.jpg";
+
+export const DirectorGBPIET = [
+  {
+    id = 1,
+    img: directorgbpiet,
+    name: "DR> V.N. KALA",
+    position: "Director GBPIET",
+  }
 
 export const FacultyData = [
   {
