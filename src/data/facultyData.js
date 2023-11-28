@@ -1,4 +1,4 @@
-import pritidimri from "pritidimri.jpg";
+import pritidimri from "../Images/pritidimri.jpg";
 import directorgbpiet from "../Images/directorgbpiet.jpg";
 import dummyimage from "../Images/dummyimage.png";
 import amansir from "../Images/headImages/amansir.jpg";

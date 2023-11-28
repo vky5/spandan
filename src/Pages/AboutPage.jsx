@@ -1,8 +1,6 @@
 import React from "react";
 import team from "../Images/team.png";
-import { FacultyData } from "../data/facultyData";
-import { HeadData } from "../data/facultyData";
-import { ManagerData } from "../data/facultyData";
+import { DirectorGBPIET, FacultyData, HeadData, ManagerData } from "../data/facultyData";
 import "../data/fonts.css";
 
 const AboutPage = () => {
@@ -48,7 +46,7 @@ const AboutPage = () => {
           creativity knows no limits. Join us for an unforgettable exploration
           into the future of technology, marking your calendars for an
           experience that promises to redefine boundaries and leave an indelible
-          mark on your technological journey.
+          mark on your technological journey.
         </p>
       </div>
 
@@ -96,9 +94,11 @@ const AboutPage = () => {
                 className="border-4 border-yellow-400 rounded-3xl"
               />
             </div>
-            <div className="relative text-xs font-medium bottom-12 sm:bottom-16 sm:text-lg lg:text-xl">
-              <p style={{ fontFamily: "Syne" }}>{item.name}</p>
-              <p style={{ fontFamily: "Syne" }}>{item.position}</p>
+            <div className="flex justify-center">
+            <div className="relative px-2 text-xs font-medium bg-white rounded sm:bottom-16 bottom-10 sm:text-lg lg:text-xl bg-opacity-20 backdrop-blur-lg drop-shadow-lg w-fit">
+                <p style={{ fontFamily: "Syne" }}>{item.name}</p>
+                <p style={{ fontFamily: "Syne" }}>{item.position}</p>
+            </div>
             </div>
           </div>
         ))}
