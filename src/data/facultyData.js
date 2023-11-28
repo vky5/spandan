@@ -8,7 +8,6 @@ import kanchanmam from "../Images/headImages/kanchanman.jpg";
 import yashsir from "../Images/headImages/yashsir.jpg";
 import chandrasir from "../Images/headImages/chandra.jpg";
 import saif from "../Images/headImages/saif.jpg";
-import sameer from "../Images/headImages/sameer.jpg";
 
 export const DirectorGBPIET = [
   {
@@ -18,6 +17,7 @@ export const DirectorGBPIET = [
     position: "Director GBPIET",
   }
 ]
+
 export const FacultyData = [
   {
     id: 1,
@@ -94,14 +94,14 @@ export const ManagerData = [
   },
   {
     id: 7,
-    img: sameer,
-    name: "Sameer Ali",
+    img: dummyimage,
+    name: "ABC Singh",
     position: "Food and Beverages Team",
   },
   {
     id: 8,
     img: dummyimage,
-    name: "Shubham Joshi",
+    name: "ABC Singh",
     position: "Media and Publicity Team",
   },
 ];
