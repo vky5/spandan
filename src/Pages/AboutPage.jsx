@@ -51,6 +51,32 @@ const AboutPage = () => {
           mark on your technological journey.
         </p>
       </div>
+
+      <div className="flex flex-col md:flex-row justify-center items-center mb-8">
+        <img
+          src={DirectorGBPIET[0].img}
+          className="w-32 h-32 rounded-full border-4 border-yellow-400"
+          alt="Director GBPIET"
+        />
+        <div className="ml-4 text-sm md:text-lg" style={{ fontFamily: "Syne" }}>
+          <p>
+            {DirectorGBPIET[0].name}
+            <br />
+            {DirectorGBPIET[0].position}
+          </p>
+          <p className="mt-4">
+            It is my great privilege to welcome you to the Govind Ballabh Pant
+            Institute of Engineering & Technology, Pauri Garhwal and invite
+            you to explore the multidimensional facets of this Engineering
+            Institute using the official website. The Institute has already
+            marked its presence as a leading research and teaching institute in
+            the country. Its strengths and standing are best evidenced by the
+            high quality of the students admitted in various programs and well
+            qualified faculty.
+          </p>
+        </div>
+      </div>
+      
       <h2
         className="mt-10 text-xl font-semibold md:mt-20 md:text-6xl"
         style={{ fontFamily: "Syne" }}
