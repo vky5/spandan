@@ -85,24 +85,22 @@ const AboutPage = () => {
         <img src={team} className="sm:w-96" />
       </div>
 
-      <div className="flex flex-wrap justify-center gap-x-5">
-        {FacultyData.map((item) => (
-          <div key={item.id} className="">
-            <div className="w-32 sm:w-52 md:w-64 lg:w-80 ">
+       <div className="grid grid-cols-2 mt-10 sm:grid-cols-3 gap-x-5 md:grid lg:grid-cols-4 lg:gap-x-10">
+          {FacultyData.map((item) => (
+            <div key={item.id} className="">
               <img
                 src={item.img}
                 className="border-4 border-yellow-400 rounded-3xl"
               />
+              <div className="flex justify-center">
+                <div className="relative px-2 text-xs font-medium bg-white rounded sm:bottom-16 bottom-10 sm:text-lg lg:text-xl bg-opacity-20 backdrop-blur-lg drop-shadow-lg w-fit">
+                  <p style={{ fontFamily: "Syne" }}>{item.name}</p>
+                  <p style={{ fontFamily: "Syne" }}>{item.position}</p>
+                </div>
+              </div>
             </div>
-            <div className="flex justify-center">
-            <div className="relative px-2 text-xs font-medium bg-white rounded sm:bottom-16 bottom-10 sm:text-lg lg:text-xl bg-opacity-20 backdrop-blur-lg drop-shadow-lg w-fit">
-                <p style={{ fontFamily: "Syne" }}>{item.name}</p>
-                <p style={{ fontFamily: "Syne" }}>{item.position}</p>
-            </div>
-            </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
       <div>
         <h2 className="mb-2 text-3xl font-semibold text-left md:text-3xl md:my-10">
           HEADS
