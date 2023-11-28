@@ -14,7 +14,7 @@ export const DirectorGBPIET = [
   {
     id: 1,
     img: directorgbpiet,
-    name: "DR> V.N. KALA",
+    name: "DR. V.N. KALA",
     position: "Director GBPIET",
   }
 ]
@@ -22,7 +22,7 @@ export const DirectorGBPIET = [
 export const FacultyData = [
   {
     id: 1,
-    img: dummyimage,
+    img: pritidimri,
     name: "DR. PRITI DIMRI",
     position: "Oic SAC",
   },
