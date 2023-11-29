@@ -63,12 +63,12 @@ export const ManagerData = [
     position: "Overall Team Coordinator",
   },
 
-  {
-    id: 2,
-    img: harshsir,
-    name: "Harsh Chaudhary",
-    position: "Events and Management ",
-  },
+  // {
+  //   id: 2,
+  //   img: harshsir,
+  //   name: "Harsh Chaudhary",
+  //   position: "Events and Management ",
+  // },
   {
     id: 3,
     img: gyanedrasir,
@@ -93,16 +93,16 @@ export const ManagerData = [
     name: "Yash Singal",
     position: "Hospitality Team",
   },
-  {
-    id: 7,
-    img: dummyimage,
-    name: "ABC Singh",
-    position: "Food and Beverages Team",
-  },
-  {
-    id: 8,
-    img: dummyimage,
-    name: "ABC Singh",
-    position: "Media and Publicity Team",
-  },
+  // {
+  //   id: 7,
+  //   img: dummyimage,
+  //   name: "ABC Singh",
+  //   position: "Food and Beverages Team",
+  // },
+  // {
+  //   id: 8,
+  //   img: dummyimage,
+  //   name: "ABC Singh",
+  //   position: "Media and Publicity Team",
+  // },
 ];

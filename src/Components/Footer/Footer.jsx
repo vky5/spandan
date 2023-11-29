@@ -45,10 +45,10 @@ const Footer = () => {
         <div className="flex items-center justify-evenly ">
           {data1.map((item) => (
             <p
-              className="flex items-center px-3 py-1 mx-0.5 md:mx-2 bg-[#0c2c53] rounded-lg  text-[10px] md:text-xl"
+              className="flex items-center px-3 py-1 mx-0.5 md:mx-2 bg-[#0c2c53] rounded-lg  text-[10px] md:text-xl hover:text-yellow-500"
               key={item.id}
             >
-              <a href={item.link} target="_blank">
+              <a href={item.link} target="_blank" className="">
                 {item.name}
               </a>
               <BsArrowUpRight />
@@ -57,11 +57,11 @@ const Footer = () => {
         </div>
         <div className="flex justify-around mt-5">
           <ul
-            className="flex flex-wrap items-center justify-evenly text-[12px] w-48 md:w-96 md:text-2xl"
+            className="flex flex-wrap items-center justify-evenly text-[12px] w-48 md:w-96 md:text-2xl "
             style={{ fontFamily: "sharetech" }}
           >
             {data2.map((item) => (
-              <li key={item.id} className="px-2">
+              <li key={item.id} className="px-2 hover:text-yellow-500">
                 <a href={item.link} target="_blank">
                   {item.name}
                 </a>

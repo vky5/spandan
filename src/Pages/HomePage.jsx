@@ -9,20 +9,23 @@ import dataofHome from '../data/homepageinfo.js'
 
 function Homepage() {
 
-    console.log(dataofHome);
   return (
     <>
-      <Registerpage/>
+      <Registerpage />
       <div className="my-4">
-        <Timeline/>
+        <Timeline />
       </div>
-      
-      <Box heading={dataofHome[0].heading} extraHeading={dataofHome[0].extraHeading} data={dataofHome[0].data}/>
-      <Box heading={dataofHome[1].heading} extraHeading={dataofHome[1].extraHeading} data={dataofHome[1].data}/>
-      <Box heading={dataofHome[2].heading} extraHeading={dataofHome[2].extraHeading} data={dataofHome[2].data}/>
-      
+      {dataofHome.map((item) => (
+        <Box
+          heading={item.heading}
+          extraHeading={item.extraHeading}
+          data={item.data}
+          key={item.key}
+        />
+      ))}
+
       <div className="flex justify-center">
-        <MyCarousel/>
+        <MyCarousel />
       </div>
     </>
   );

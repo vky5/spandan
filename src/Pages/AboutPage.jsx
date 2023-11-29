@@ -1,6 +1,11 @@
 import React from "react";
 import team from "../Images/team.png";
-import { DirectorGBPIET, FacultyData, HeadData, ManagerData } from "../data/facultyData";
+import {
+  DirectorGBPIET,
+  FacultyData,
+  HeadData,
+  ManagerData,
+} from "../data/facultyData";
 import "../data/fonts.css";
 
 const AboutPage = () => {
@@ -49,32 +54,41 @@ const AboutPage = () => {
           mark on your technological journey.
         </p>
       </div>
-
-      <div className="flex flex-col md:flex-row justify-center items-center mb-8">
-        <img
-          src={DirectorGBPIET[0].img}
-          className="w-32 h-32 rounded-full border-4 border-yellow-400"
-          alt="Director GBPIET"
-        />
-        <div className="ml-4 text-sm md:text-lg" style={{ fontFamily: "Syne" }}>
-          <p>
-            {DirectorGBPIET[0].name}
-            <br />
-            {DirectorGBPIET[0].position}
-          </p>
-          <p className="mt-4">
-            It is my great privilege to welcome you to the Govind Ballabh Pant
-            Institute of Engineering & Technology, Pauri Garhwal and invite
-            you to explore the multidimensional facets of this Engineering
-            Institute using the official website. The Institute has already
-            marked its presence as a leading research and teaching institute in
-            the country. Its strengths and standing are best evidenced by the
-            high quality of the students admitted in various programs and well
-            qualified faculty.
-          </p>
-        </div>
+      <div className="mt-10">
+        {DirectorGBPIET.map((item) => (
+          <div key={item.id} className="flex flex-col justify-center">
+            <div className="flex justify-center">
+              <img
+                src={item.img}
+                alt="director image"
+                className="w-48 border-4 border-yellow-400 rounded-full"
+              />
+            </div>
+            <p
+              style={{ fontFamily: "spacemono" }}
+              className="text-xl font-semibold"
+            >
+              {item.name}
+            </p>
+            <p
+              style={{ fontFamily: "spacemono" }}
+              className="text-xl font-semibold"
+            >
+              {" "}
+              {item.position}
+            </p>
+          </div>
+        ))}
       </div>
-      
+      <p className="mt-4 text-xl" style={{ fontFamily: "spacemono" }}>
+        It is my great privilege to welcome you to the Govind Ballabh Pant
+        Institute of Engineering & Technology, Pauri Garhwal and invite you to
+        explore the multidimensional facets of this Engineering Institute using
+        the official website. The Institute has already marked its presence as a
+        leading research and teaching institute in the country. Its strengths
+        and standing are best evidenced by the high quality of the students
+        admitted in various programs and well qualified faculty.
+      </p>
       <h2
         className="mt-10 text-xl font-semibold md:mt-20 md:text-6xl"
         style={{ fontFamily: "Syne" }}
@@ -84,23 +98,22 @@ const AboutPage = () => {
       <div className="flex justify-center">
         <img src={team} className="sm:w-96" />
       </div>
-
-       <div className="grid grid-cols-2 mt-10 sm:grid-cols-3 gap-x-5 md:grid lg:grid-cols-4 lg:gap-x-10">
-          {FacultyData.map((item) => (
-            <div key={item.id} className="">
-              <img
-                src={item.img}
-                className="border-4 border-yellow-400 rounded-3xl"
-              />
-              <div className="flex justify-center">
-                <div className="relative px-2 text-xs font-medium bg-white rounded sm:bottom-16 bottom-10 sm:text-lg lg:text-xl bg-opacity-20 backdrop-blur-lg drop-shadow-lg w-fit">
-                  <p style={{ fontFamily: "Syne" }}>{item.name}</p>
-                  <p style={{ fontFamily: "Syne" }}>{item.position}</p>
-                </div>
+      <div className="grid grid-cols-2 mt-10 sm:grid-cols-3 gap-x-5 md:grid lg:grid-cols-3 lg:gap-x-56 lg:px-20">
+        {FacultyData.map((item) => (
+          <div key={item.id} className="">
+            <img
+              src={item.img}
+              className="border-4 border-yellow-400 rounded-3xl"
+            />
+            <div className="flex justify-center">
+              <div className="relative px-2 text-xs font-medium bg-white rounded sm:bottom-16 bottom-10 sm:text-lg lg:text-xl bg-opacity-20 backdrop-blur-lg drop-shadow-lg w-fit">
+                <p style={{ fontFamily: "Syne" }}>{item.name}</p>
+                <p style={{ fontFamily: "Syne" }}>{item.position}</p>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
+      </div>
       <div>
         <h2 className="mb-2 text-3xl font-semibold text-left md:text-3xl md:my-10">
           HEADS
