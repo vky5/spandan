@@ -4,16 +4,17 @@ import bg2 from "../../Images/homeImages/homepage_bg2.png";
 import line from "../../Images/homeImages/line.jpeg";
 import "../../data/fonts.css";
 
-function Box({ heading, extraHeading, data }) {
+function Box({ heading, extraHeading, data ,key}) {
   const backgroundStyle = {
     backgroundImage: `url(${bg2})`,
     backgroundSize: "cover",
   };
+  
 
   return (
     <div
       style={backgroundStyle}
-      className="flex items-center gap-1 py-5 mx-5 my-5 md:h-36 "
+      className={`flex items-center gap-1 py-5 mx-5 my-5 md:h-36 ${key%2===0 ? "flex-row-reverse" : "flex-row"}` }
     >
       <div className="text-center w-fit sm:w-1/3">
         <div

@@ -16,7 +16,7 @@ const Filter = ({ filterEvents }) => {
   return (
     <ul className="flex items-center mx-4 list-none border-b-2 md:mx-0 justify-evenly filter-menu-items md:justify-evenly" style={{fontFamily :"Syne"}}>
       {filterdata.map((item) => {
-        const activeClass = " border-b-4 text-white";
+        const activeClass = "border-yellow-500 border-b-4   text-white";
         return (
           <li
             className={`py-2 text-md md:text-4xl text-white md:font-normal md:leading-7 font-normal leading-5 cursor-pointer ${
