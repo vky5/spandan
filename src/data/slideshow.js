@@ -8,6 +8,9 @@ import img7 from '../Images/homeImages/carousel/7.jpg';
 import img8 from '../Images/homeImages/carousel/8.jpg';
 import img9 from '../Images/homeImages/carousel/9.jpg';
 import img10 from '../Images/homeImages/carousel/10.jpg';
+import img11 from '../Images/homeImages/carousel/11.jpg';
+import img12 from '../Images/homeImages/carousel/12.jpg';
+import img13 from '../Images/homeImages/carousel/13.jpg';
 
 
 const imgSlide = [
@@ -71,6 +74,24 @@ const imgSlide = [
       alt: "Image 10",
       caption: "Image 10 Description",
     },
+    {
+      id: 11,
+      src: img11,
+      alt: "Image 11",
+      caption: "Image 11 Description",
+    },
+    {
+      id: 12,
+      src: img12,
+      alt: "Image 12",
+      caption: "Image 12 Description",
+    },
+    {
+      id: 13,
+      src: img13,
+      alt: "Image 13",
+      caption: "Image 13 Description",
+    }
   ];
   
   
